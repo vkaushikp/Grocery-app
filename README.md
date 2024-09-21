@@ -72,7 +72,7 @@ This project appears to be a Django-based web application with REST API function
 - REST API functionality using Django REST Framework
 - User authentication and authorization
 - Admin interface for managing data
-- API documentation using drf-yasg (Swagger)
+- API documentation using drf_spectacular (Swagger)
 
 ## Dependencies
 
@@ -80,7 +80,7 @@ The project relies on several key dependencies, including:
 
 - Django
 - Django REST Framework
-- drf-yasg (for API documentation)
+- drf_spectacular (for API documentation)
 - django-allauth (for authentication)
 - django-crispy-forms and crispy-bootstrap5 (for form styling)
 - PyJWT (for JSON Web Tokens)
@@ -93,6 +93,7 @@ For a complete list of dependencies, refer to the `requirements.txt` file.
 1. Create a `.env` file in the project root directory.
 2. Add the following environment variables:
    ```
+   OPENAI_API_KEY=your_openai_api_key
    SECRET_KEY=your_secret_key
    DEBUG=True
    DATABASE_URL=your_database_url
